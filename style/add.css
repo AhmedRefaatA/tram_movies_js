@@ -1,0 +1,49 @@
+body{
+    background-color: #edeaf5;
+}
+header{
+    background-color: #c4d7e0;
+    height: 59px;
+    font-size: initial;
+}
+h1,p{
+    color:#2e77ae;
+    font-size: 25px;
+    padding-left: 5px;
+    display: inline-block;
+}
+span{
+    color: #0d2137;
+    font-size: 20px;
+}
+.part,.part2{
+    padding-left: 10px;
+    height: 90px;
+    margin: 31px;
+}
+.part2{
+    height: fit-content;
+}
+.form-control{
+    margin-top: -11px;
+    width: 95%;
+}
+.button{
+    margin-bottom: 11px;
+}
+.btn{
+    font-size: 22px;
+}
+.video,.text{
+    display: inline-block;
+}
+.area{
+    width: 400px;
+    height: 165px;
+}
+video{
+background-color:#ababab;
+}
+.butt{
+    background-color: #2e77ae;;
+}

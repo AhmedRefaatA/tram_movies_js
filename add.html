@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="./images/Jamespeng-Movie-Trailer.ico" />
+
+        <meta charset= 'uf-8'>
+        <meta name= "description" content= "this is new website for all people">
+        <title>Tram Movies</title>
+        <link rel="stylesheet" href="style/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="style/fontawesome.min.css" type="text/css">
+        <link rel="stylesheet" href="style/brands.min.css" type="text/css">
+        <link rel="stylesheet" href="style/solid.min.css" type="text/css">
+        <link rel="stylesheet" href="style/normalize.css" type="text/css">
+        <link rel="stylesheet" href="style/animate.css" type="text/css">
+        <link rel="stylesheet" href="./assets/css/aslider.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css" type="text/css">
+        <link rel="stylesheet" href= "style/add.css">
+    </head>
+    <body>
+        <!-- As a heading -->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <!-- Brand -->
+            <h4 class="brand"><i class="fas fa-tram logo"></i><span class="logo">T</span><span style="color:#e0eaf5;;">RAM </span><sub class="logo">Movies</sub></h4>        
+            <ul class="nav  text-center ml-auto "> 
+
+                  <!-- Edit Video -->
+                  <li>
+                  <a class="nav-link" href="./Edit_Movies.html"><i class="fas fa-edit"></i>Edit Video</a>
+                  </li> 
+
+                  <li>
+                    <!-- Log Out -->
+                    <a class="nav-link" href="#" onclick="logOut()"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                  </li>
+
+              </ul>
+        </nav>
+        <header> <h1> Add Video</h1> <span class="glyphicon glyphicon-plus"></span></header>
+        <div class="part">
+            <p>Video ID <span>*</span></p>
+            <input disabled type="text" class="form-control" placeholder="This field insert Auotmatic" aria-describedby="basic-addon1">
+        </div>
+        <div class="part">
+            <p>Video Title <span>*</span></p>
+            <input type="text" class="form-control" placeholder="Enter the URL of this media" aria-describedby="basic-addon1" id="name">
+        </div>
+        <div class="part">
+            <p>Video URL <span>*</span></p>
+            <input type="text" class="form-control" placeholder="Enter the URL of this media" aria-describedby="basic-addon1" id="url">
+        </div>
+        <div class="part">
+            <p>Poster URL  <span>*</span></p>
+            <input type="text" class="form-control" placeholder="Enter the URL of this media" aria-describedby="basic-addon1" id="image">          
+        </div>
+        <div class="part2">
+            <p>Revision Information</p>
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-6   col-sm-12  col-12 video  ">
+                        <video> video area</video>
+                    </div>
+                         <div class="col-lg-6  col-sm-12  col-12 text    ">
+                           <textarea class="area"> Briefly describe the changes you have made. </textarea>
+                         </div>
+                    </div>
+                </div>
+        </div>
+        <div class="container">
+            <div class="row">  
+                <div class="button col-lg-12  col-sm-12">
+                    <button type="button" class="btn btn-info butt" onclick="addvideo()">Save and Publish</button>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-project-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/Admin.js"></script>
+        <script src="js/add_video.js"></script>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="./media/Jamespeng-Movie-Trailer.ico" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Movies </title>
+    <link rel="stylesheet" href="style/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="style/fontawesome.min.css" type="text/css">
+    <link rel="stylesheet" href="style/brands.min.css" type="text/css">
+    <link rel="stylesheet" href="style/solid.min.css" type="text/css">
+    <link rel="stylesheet" href="style/normalize.css" type="text/css">
+    <link rel="stylesheet" href="style/animate.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/aslider.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+</head>
+<body onload="showMovies()">
+        <!-- As a heading -->
+     <nav class="navbar navbar-expand-sm navbar-dark">
+        <!-- Brand -->
+        <h4 class="brand"><i class="fas fa-tram logo"></i><span class="logo">T</span><span style="color:#e0eaf5;;">RAM </span><sub class="logo">Movies</sub></h4>        
+        <ul class="nav  text-center ml-auto ">    
+              <li>
+                <!-- Add Video -->
+                    <a class="nav-link" href="./add.html"><i class="fas fa-video"></i>Add Video</a>
+              </li>
+              <!-- Logout -->
+              <li>
+              <a class="nav-link" href="#" onclick="logOut()"><i class="fas fa-sign-out-alt" ></i>Logout</a>
+              </li>
+          </ul>
+    </nav>
+        <div class="container">
+            <div class="row text-center" >
+                <div class="col-sm-12" style="margin-top: 50px;">
+                    <table class="table table-hover">
+                    <thead>
+                        <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Url</th>
+                        <th>Action</th>
+                        <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id='showMovies'>
+
+                    </tbody>
+                    </table>
+                </div>
+              </div>
+        </div>
+        <script src="js/jquery-project-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/rvslider.js" type="text/javascript"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/Admin.js"></script>
+    </body>
+</html>
